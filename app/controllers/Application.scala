@@ -6,7 +6,7 @@ import play.api.mvc._
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("Test this auto-reload thing!!"))
+    Ok(views.html.index("Woot woot!!"))
   }
 
 }
